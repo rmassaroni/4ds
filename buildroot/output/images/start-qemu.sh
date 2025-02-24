@@ -25,4 +25,4 @@ if ! ${mode_sys_qemu}; then
     export PATH="/home/rjm/projects/buildroot/buildroot/output/host/bin:${PATH}"
 fi
 
-exec qemu-system-x86_64 -M pc -kernel bzImage -drive file=rootfs.ext2,if=virtio,format=raw -append "rootwait root=/dev/vda console=tty1 console=ttyS0"  -net nic,model=virtio -net user  ${EXTRA_ARGS} "$@"
+exec qemu-system-x86_64 -M pc -kernel bzImage -drive file=rootfs.ext2,if=virtio,format=raw -append "rootwait root=/dev/vda console=tty1 console=ttyS0"  -net nic,model=virtio -net user,hostfwd=tcp::2222-:22  ${EXTRA_ARGS} "$@"
