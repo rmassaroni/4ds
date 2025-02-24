@@ -1,2 +1,6 @@
 support/*
 docs/*
+output/target/*
+output/build/*
+output/host/*
+output/staging
