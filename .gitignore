@@ -10,3 +10,4 @@ VagrantFile
 qemu-9.2.1/*
 *.tar.xz
 .vagrant/*
+*.ext2
