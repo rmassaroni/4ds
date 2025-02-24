@@ -1,0 +1,12 @@
+# Ignore files larger than 10MB
+*.iso
+*.tar.gz
+*.zip
+*.img
+*.mp4
+*.avi
+Vagrantfile
+VagrantFile
+qemu-9.2.1/*
+*.tar.xz
+.vagrant/*
