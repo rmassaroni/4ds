@@ -3384,7 +3384,7 @@ endif
 ifneq "$(HOSTARCH)" "x86_64"
 /home/rjm/projects/buildroot/buildroot/output/build/buildroot-config/auto.conf: FORCE
 endif
-ifneq "$(BR2_VERSION_FULL)" "2024.11-1129-g544249ff77-dirty"
+ifneq "$(BR2_VERSION_FULL)" "-g50d2096-dirty"
 /home/rjm/projects/buildroot/buildroot/output/build/buildroot-config/auto.conf: FORCE
 endif
 
