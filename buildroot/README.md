@@ -1,0 +1,2 @@
+- Many buildroot contents too large for github
+- Likely used make qemu_x86_64_defconfig for initial buildroot configuration
