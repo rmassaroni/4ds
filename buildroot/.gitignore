@@ -1,22 +1,22 @@
-/output
-/dl
-/.auto.deps
-/.config.cmd
-/.config.old
-/..config.tmp
-/.config
-*.depend
-*.o
-/*.patch
-/*.diff
-*.orig
-*.rej
-*~
-*.pyc
-.tmpconfig*
-!.github
-ccache
-.buildroot-ccache
+# /output
+# /dl
+# /.auto.deps
+# /.config.cmd
+# /.config.old
+# /..config.tmp
+# /.config
+# *.depend
+# *.o
+# /*.patch
+# /*.diff
+# *.orig
+# *.rej
+# *~
+# *.pyc
+# .tmpconfig*
+# !.github
+# ccache
+# .buildroot-ccache
 
 support/*
 docs/*
