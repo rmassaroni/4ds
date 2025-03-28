@@ -24,3 +24,5 @@ output/target/*
 output/build/*
 output/host/*
 output/staging
+dl/toolchain-external-bootlin/armv6-eabihf--musl--stable-2021.11-1.tar.bz2
+
